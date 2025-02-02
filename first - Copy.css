@@ -1,0 +1,177 @@
+*{
+    text-align: center;
+    line-height: 0.3rem;
+}
+
+body{
+    background-color: rgb(247, 238, 226);
+}
+.navbar{
+    width: 1200;
+    height: 45px;
+    background-color:#081b31;
+    color:skyblue;
+    line-height:10rem ;
+    text-shadow: 0cap;
+    display: flex;
+    display: inline-block;
+    font-size: 28px;
+    text-align: center;
+}
+
+.choice{
+    width: 900px;
+    height: 380px;
+    margin: 100px ;
+    margin-top:20px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+#rock{
+    height: 200px;
+    width: 100%;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: rgba(156, 28, 132, 0.38);
+    align-items: center;
+    justify-content: center;   
+}
+
+#paper{
+    height: 200px;
+    width: 100%;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: rgba(156, 28, 132, 0.38);
+    align-items: center;
+    justify-content: center;  
+}
+
+#scissor{
+    height: 200px;
+    width: 100%;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: rgba(156, 28, 132, 0.38);
+    align-items: center;
+    justify-content: center;   
+}
+
+#rock:hover{
+    background-color: black;
+    cursor: pointer;  
+}
+
+#paper:hover{
+    background-color: black;
+    cursor: pointer;   
+ }
+
+#scissor:hover{
+    background-color: black;
+    cursor: pointer;   
+ }
+
+.rock{
+    background-image: url("rock.png");
+    width: 250px;
+    height: 170px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    border-radius:100%;  
+}
+
+.paper{
+    background-image: url("paper.png");
+    width: 250px;
+    height: 170px;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.scissor{
+    background-image: url("scissors.png");
+    width: 250px;
+    height: 170px;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.score-board{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    gap: 5rem;
+    margin-left: 10px;
+}
+
+.score-board1{
+    width: 100px;
+    height: 150px;
+    margin-top: 0px;
+    margin-left: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+
+button{
+    color: rgb(227, 38, 38);
+    height: 30px;
+    width: 160px;
+    background-color: rgb(231, 237, 61);
+    font-size: 20px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#msg{
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    color:white;
+    background-color:#000000;
+    padding: 1rem;
+    border-radius: 70px;
+}
+
+h3{
+    height: 20px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    color:white;
+    background-color: rgb(187, 30, 30);
+    padding: 1rem;
+    border-radius: 70px;
+}
+
+/*#alert {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 20px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    display: none; /* Initially hidden */
+   /* position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
